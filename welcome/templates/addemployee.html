@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Employee</title>
+</head>
+<body bgcolor="cyan">
+	<form action="./createemp", method="post">
+		{%csrf_token%}
+		Employee Number:<input type="text" name="t1" id="t1"><br>
+		DOB:<input type="text" name="t2"><br>
+		First_Name:<input type="text" name="t3"><br>
+		Last_Name:<input type="text" name="t4"><br>
+		Gender:<input type="text" name="t5"><br>
+		Hire-Date:<input type="text" name="t6"><br>
+		<input type="submit" value="submit" align="left">
+    </form>
+</body>
+</html>
